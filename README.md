@@ -1,4 +1,6 @@
 # mini-inject
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffernando7jr%2Fmini-inject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffernando7jr%2Fmini-inject?ref=badge_shield)
+
 Minimalistic dependency injection implementation without decorators (less than 100kb after installing)
 
 MiniInject is offered as both CommonJS and ESModule files and there are no dependencies except for testing
@@ -727,3 +729,7 @@ npx mini-inject analyze ./src/container.js --export=appDI
 
 * Binding with an empty dependency array now automatically set lateResolve flag to `false`
 * Added the method `getBinding` for accessing the inner works of the library
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffernando7jr%2Fmini-inject.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffernando7jr%2Fmini-inject?ref=badge_large)
